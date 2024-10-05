@@ -1,0 +1,158 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*------------------------------------Nav Bar----------------------------------*/
+.slack-header{
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    position: sticky;
+    max-width: 80vw;
+    margin: auto;
+}
+.nav-links-left{
+    display: flex;
+    justify-content: space-between;
+    word-spacing: 30px;
+    align-items: center;
+    margin-left: 10px;
+}
+.nav-links-left ul li {
+    display: inline-block;
+}
+.nav-links-left img{
+    width: 200px;
+}
+.nav-links-left .links{
+    margin-left: 30px;
+    font-size: 20px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+button{
+    cursor: pointer;
+}
+.nav-links-right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-right:20px ;
+    font-size: 20px;
+}
+.nav-links-right #btn1{
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #fff;
+    border: 1px solid purple;
+}
+.nav-links-right #btn1:hover{
+    border: 3px solid purple;
+    transition: 0.5s ease-in;
+}
+.nav-links-right .btn{
+    padding: 10px;
+    width: 150px;
+    font-size: 15px;
+    font-weight: bold;
+    background: #950c9a;
+    color: white;
+}
+.nav-links-right .btn:hover{
+    background-color: #330434;
+}
+/*----------------------------------middle content---------------------------------*/
+.content{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.content h1{
+    font-size: 50px;
+}
+.content h1 span{
+    font-size: 50px;
+    color: #611f69 !important;
+}
+.content-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    
+}
+.content-btn .btn3{
+    padding: 20px;
+    width: 200px;
+    font-size: 15px;
+    background: #950c9a;
+    font-weight: bold;
+    color: #fff;
+}
+.content-btn .btn4{
+    width: 250px;
+    background-color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+}
+.text{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+}
+.text strong,span{
+    font-size: 25px;
+}
+/*----------------------------------companies logo-------------------------------*/
+.company ul li{
+    display: inline-block;
+}
+.company .company-link{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+/*---------------------------------Hero-------------------------------------------*/
+.hero{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+ 
+}
+.hero video{
+    width: 1200px;
+    height: 900px;
+    border-radius: 20px;
+}
+/*---------------------For Boxes---------------------*/
+.boxes{
+    background: lightpink;
+    gap: 10px;
+}
+.box1{
+   display: flex; 
+   justify-content: space-between;
+}
+.box1 video{
+    width: 800px;
+}
+.box1 h1 , p{
+    margin-right: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box1 h1{
+    font-size: 50px;
+}
+.box1 p , a{
+    font-size: 20px;
+}
